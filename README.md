@@ -26,10 +26,10 @@ Public-domain books in reader-markdown, for reading, annotating and, in time, ci
 
 ## Where they come from
 
-Converted from Project Gutenberg's HTML by reader's [`tools/gutenberg`](https://github.com/jzheaux/reader/tree/main/tools/gutenberg), each from its eBook number there, with pictures, contents pages and Gutenberg's own pages left out: 1342, 2701, 1524, 1041, 1497, 2680, 216, 132, 10 and 17. To bring them in again:
+Converted from Project Gutenberg's HTML by reader-authors' [`author gutenberg`](https://github.com/jzheaux/reader-authors/tree/main/authors/gutenberg), each from its eBook number there, with pictures, contents pages and Gutenberg's own pages left out: 1342, 2701, 1524, 1041, 1497, 2680, 216, 132, 10 and 17. To bring them in again:
 
 ```
-node tools/gutenberg/import.js <cache> ../reader-library
+author gutenberg --all --out ../reader-library --force
 ```
 
 The texts are in the public domain in the United States.
